@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #1E1E1E;
+  --bg-card: #2A2A2A;
+  --bg-sidebar: #161616;
+
+  --text-main: #E5E5E5;
+  --text-heading: #FFFFFF;
+  --text-muted: #9CA3AF;
+
+  --border: #3A3A3A;
+
+  --accent: #3B82F6;
+  --accent-purple: #A78BFA;
+  --accent-orange: #F59E0B;
+  --accent-teal: #2DD4BF;
+
+  --danger: #EF4444;
+}
+/* LIGHT THEME */
+.light {
+  --bg: #F8F9FA;
+  --bg-card: #FFFFFF;
+  --bg-sidebar: #F1F3F5;
+
+  --text-main: #212529;
+  --text-heading: #111111;
+  --text-muted: #495057;
+
+  --border: #DEE2E6;
+
+  --accent: #4C6EF5;
+  --accent-purple: #7950F2;
+  --accent-orange: #F59E0B;
+  --accent-teal: #20C997;
+
+  --danger: #FA5252;
+}
+
+/* Hide Scrollbar (Chrome, Edge, Safari, Brave) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide Scrollbar (Firefox, IE) */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
