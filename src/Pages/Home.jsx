@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="w-full min-h-[calc(100vh-65px)] bg-(--bg) overflow-y-auto">
-      <div className="hero max-w-[1400px] mx-auto text-(--text-heading) pt-8 sm:pt-12 md:pt-16 text-center flex flex-col gap-4 sm:gap-6 md:gap-8 px-4">
+      <div className="hero max-w-[1400px] mx-auto text-(--text-heading) pt-8 sm:pt-12 md:pt-12 text-center flex flex-col gap-4 sm:gap-6 md:gap-8 px-4">
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-wider">
           Capture Your Thoughts.
           <br /> Stay Organized. Work Smarter.
@@ -19,7 +19,7 @@ const Home = () => {
           <Link to="/notes">Start Taking Notes</Link>
         </button>
       </div>
-      <div className="features max-w-[1400px] text-center mx-auto mt-8 sm:mt-12 md:mt-16 px-4 pb-8">
+      <div className="features max-w-[1400px] text-center mx-auto mt-8 sm:mt-12 md:mt-12 px-4 pb-8">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-(--text-heading)">
           Features of QuickNote
         </h1>
@@ -79,7 +79,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-center text-(--text-heading) mt-8 sm:mt-12 md:mt-16 text-sm sm:text-base pb-4">
+      <div className="text-center text-(--text-heading) mt-8 sm:mt-12 md:mt-4 text-sm sm:text-base pb-4">
         “Your Notes. Your Space.”
       </div>
     </div>
